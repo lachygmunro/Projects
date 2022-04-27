@@ -1,0 +1,53 @@
+body {
+  background: #000000;
+  font-family: "Nunito", sans-serif;
+}
+
+#hero {
+  background-image: url("imgs/banner.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#hero h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 5rem;
+}
+
+.blurb h2 {
+  color: #ffb703;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.blurb h3 {
+  color: black;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#nav {
+  background-color: #14213d;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+#nav .nav-link {
+  color: #fca311;
+}
+
+#nav .nav-link:hover {
+  color: #EA1C2C;
+}
+
+#bannerImg {
+  width: 100vw;
+  height: 100vh;
+}
