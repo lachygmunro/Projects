@@ -1,40 +1,34 @@
 body {
     background-image: url("img2.jpg");
-    background-size: cover;   
-    font-family: 'Passions Conflict', cursive;
+    background-size: cover;
 }
 
-/* #heading {
-    width: 600px;
-    height: 170px;
-    background-color: #073b4c;
-    border-radius: 25px;
-    margin: auto;
-} */
 
+#header {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+}
 
 h1 {
-    color: black;
-    font-weight: bold;
-    font-size: 120px;
-    text-align: center;
-    margin-bottom: 0;
-    margin-top: 20px;
-    padding-bottom: 0;
-    box-sizing: content-box;
+  color: black;
+  font-weight: bold;
+  font-size: 120px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  font-family: 'Passions Conflict'
 }
 
 h2 {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    font-weight: lighter;
-    margin-top: 0;
-    padding-bottom: 2px;
-    padding-top: 0;
-    }
+  color: black;
+  font-size: 50px;
+  margin-top: 0;
+  font-weight: 100;
+}
 
 #open i {
-    border: none;
-    
+  border: none;
+
 }
